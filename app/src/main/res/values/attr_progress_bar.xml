@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HorizontalProgressBarWithNumber">  // 声名属性集的名称，即这些属性是属于哪个控件的。
+        <attr name="progress_unreached_color" format="color" /> //进度未达到颜色
+        <attr name="progress_reached_color" format="color" />   //进度已经达到的颜色
+        <attr name="progress_reached_bar_height" format="dimension" />  //进度条已经达到的高
+        <attr name="progress_unreached_bar_height" format="dimension" />//进度条未达到的高
+        <attr name="progress_text_size" format="dimension" />   //进度条文字的大小(SP)
+        <attr name="progress_text_color" format="color" />      //进度条文字的颜色
+        <attr name="progress_text_offset" format="dimension" /> //进度条文字的偏移量
+        <attr name="progress_text_visibility" format="enum">    //进度条文字是否可见
+            <enum name="visible" value="0" />                   //枚举值可见
+            <enum name="invisible" value="1" />                 //枚举值不可见
+        </attr>
+    </declare-styleable>
+
+</resources>
